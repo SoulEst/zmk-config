@@ -1,10 +1,8 @@
 on:
   push:
-    branches:
-      - "totem-dongle"
+    branches: [ "totem-dongle" ]
   pull_request:
-    branches:
-      - "main"
+    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
